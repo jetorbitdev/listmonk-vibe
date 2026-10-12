@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "listmonk": {
+      "command": "node",
+      "args": ["mcp-server/dist/index.js"],
+      "env": {
+        "LISTMONK_URL": "${LISTMONK_URL}",
+        "LISTMONK_API_USER": "${LISTMONK_API_USER}",
+        "LISTMONK_API_TOKEN": "${LISTMONK_API_TOKEN}"
+      }
+    }
+  }
+}
